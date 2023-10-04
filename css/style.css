@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.contenedorCarrusel{
+
+    margin:0 auto 0 auto ;
+    border: 1px solid black;
+    overflow: hidden;
+    width: 800px;
+    height: 400px
+    
+    
+   
+}
+
+
+.itemCarrusel{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    
+    height: 100%;
+    
+}
+
+.flechaCarrusel{
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: black;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.contenedorPuntos{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+     img{
+    width: 100%;
+    object-fit: fill;
+}
